@@ -3,7 +3,7 @@ Python scripts and Colab notebooks to supplement the Tensorflow Object Detection
 
 ## Installation
 
-### `Dockerfiles/` for local installation of the Tensorflow Object Detection API
+### `Dockerfiles` for local installation of the Tensorflow Object Detection API
 
 ## Preprocessing
 

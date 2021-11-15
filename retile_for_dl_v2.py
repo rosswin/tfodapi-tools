@@ -328,7 +328,7 @@ if __name__ == "__main__":
         logger.add(sys.stderr, colorize=True, format=" <cyan>{time:hh:mm}</cyan>| <level>{message}</level>", enqueue=True, level="INFO")
         
     timestamp = datetime.datetime.now()
-    timestamp_formatted = timestamp.strftime("%Y-%m-%d_%H:%M:%S")
+    timestamp_formatted = timestamp.strftime("%Y-%m-%d_%H_%M_%S")
     logger.add(os.path.join(output_dir, f"v2-log-{timestamp_formatted}.log"))
     
     logger.info("RETILE_FOR_DL_V2 START")

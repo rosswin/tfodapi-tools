@@ -19,7 +19,7 @@ There are several key differences between geospatial and DL data formats:
 2. Geospatial object annotations are located with real-world coordinates independent of the image from which they were derived. Meanwhile, deep learning annotations are bound directly to their image in pixel coordinates.__Affine matrix tranformations can be tricky.__
 3. Deep learning often uses a top-left origin. Meanwhile, geospatial programs often utilize a bottom-left origin. __Always mind your y-axis__.
 
-Taking these three challenges into account, `retile_for_dl_v2` is a simple, lightweight, and universal python routine for converting large-format geospatial imagery into a series of smaller images appropriate for deep learning-based object detection algorithms. The retiling procedure is guided by a set of user-specified GIS polygons, each of which denotes an object bounding box annotations within the geospatial imagery. See the example below for a visual abstract of `retile_for_dl_v2.py` in action preparing labeled GIS data about marine debris objects for use in the Tensorflow Object Detection API:
+Taking these three challenges into account, `retile_for_dl_v2` is a simple, lightweight, and universal python routine for converting large-format geospatial imagery into a series of smaller images appropriate for object detection algorithms (including ML/DL). The retiling procedure is guided by a set of user-specified GIS polygons, each of which denotes an object bounding box annotation within the geospatial imagery. See the above visual abstract of `retile_for_dl_v2.py` in action- in this example we are preparing labeled GIS data about marine debris objects for use in the Tensorflow Object Detection API.
 
 __Flags:__
 

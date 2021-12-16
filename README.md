@@ -37,7 +37,7 @@ __Example Usage:__
 ```python
 python3 retile_for_dl_v2.py \
     --input_dir GIS_images/ \
-    --annotations GIS_annotations.gpkg \
+    --annotations 'GIS_annotations.gpkg' \
     --output_dir DL_data/ \ 
     --chip_size 640 640 \
     --num_cores 11
@@ -48,7 +48,7 @@ python3 retile_for_dl_v2.py \
 ```python
 python3 retile_for_dl_v2.py \
     --input_dir GIS_images/ \
-    --annotations GIS_annotations.gpkg \
+    --annotations 'GIS_annotations.gpkg' \
     --output_dir DL_data/ \ 
     --chip_size 640 640 \
     --num_cores 11 \
